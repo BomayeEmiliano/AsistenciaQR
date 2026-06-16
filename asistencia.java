@@ -7,7 +7,7 @@ public class asistencia {
     public asistencia(alumno nombreAlumno)
     {
         this.nombreAlumno=nombreAlumno;
-        this.fecha=fecha;
+        this.fecha=new Date();
     }
 
     public void mostrarAsistencia()

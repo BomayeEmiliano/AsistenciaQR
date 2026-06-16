@@ -20,4 +20,8 @@ public class grupo {
     {
         return alumnos;
     }
+
+    public String getGrupo(){
+        return nombreGrupo;
+    }
 }

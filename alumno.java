@@ -1,9 +1,9 @@
 public class alumno extends usuario {
     
     private String matricula;
-    private int qr;
+    private qr qr;
 
-    public alumno(String nombre, String rol, String matricula, int qr)
+    public alumno(String nombre, String rol, String matricula, qr qr)
     {
         super(nombre, rol);
         this.matricula=matricula;
@@ -15,7 +15,7 @@ public class alumno extends usuario {
         return matricula;
     }
 
-    public int getQR()
+    public qr getQR()
     {
         return qr;
     }

@@ -1,13 +1,13 @@
 public class qr {
     
-    private String codigoQR;
+    private qr codigoQR;
 
-    public qr(String codigoQR)
+    public qr(qr codigoQR)
     {
         this.codigoQR=codigoQR;
     }
 
-    public String getQR(){
+    public qr getQR(){
         return codigoQR;
     }
 

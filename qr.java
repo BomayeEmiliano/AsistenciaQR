@@ -16,3 +16,6 @@ public class qr {
         return codigoQR.equals(codigoIngresado);
     }
 }
+
+
+//probando con Miri GIT
